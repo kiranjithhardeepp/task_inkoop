@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Card from "./Component/Card/Card";
 import Task from "./Component/Task/Task";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
