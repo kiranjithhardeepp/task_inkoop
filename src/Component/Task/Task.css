@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(10, 8, 42);
+  color: aliceblue;
+}
+
+.task {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskCont {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(86, 114, 137, 0.425);
+  border-radius: 10px;
+  /* box-sizing: border-box; */
+}
+
+.taskBox {
+  width: 300px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.inputTab {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.output {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(17, 227, 101);
+}
+
+.backcode {
+  position: relative;
+  top: 100px;
+  background-color: rgb(24, 31, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  transition: transform 0.5s ease-out;
+}
+.gitImg {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  position: relative;
+  bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.backcode:hover {
+  transform: scale(1.1);
+}
